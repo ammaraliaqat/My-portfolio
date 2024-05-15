@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.webp?cid=ecf05e47z1yt9ny3cj748a088d3mv4ynaf8dtankg2zelndn&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: white;
+    margin-top: 60px;
+}
+
+li{
+    transition: all 0.5s;
+}
+
+ul li:hover{
+    color: red;
+}
+
+.button button{
+    padding: 10px;
+    background-color:red;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+.button button:hover{
+    color: black;
+    background-color: white;
+    border:solid red 2px;
+
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+h4, h1, h3{
+    color: white;
+}
+
+h4{
+    font-size: 30px;
+}
+
+h3{
+    font-size:40px ;
+}
+
+h1{
+    font-size: 80px;
+    background-image: url(https://i.gifer.com/OwRt.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.newslatter form{
+
+    position: relative;
+}
+
+.newslatter form input:first-child{
+    padding: 15px 15px;
+    width: 30%;
+    outline: none;
+    border: solid 1px red;
+    border-radius: 20px;
+
+}
+
+.newslatter form input:last-child{
+    position: absolute;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight:bolder ;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    left:13.5rem;
+    top:6px;
+}
+
+main{
+    display: flex;
+    color: white;
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+    gap: 1rem;
+}
+
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+}
+
+.main-text h2{
+  font-size: 40px;
+}
+
+span{
+    color: red;
+}
+
+.main-text h5{
+    font-size: 20px;
+}
+
+img{
+    height: 300px;
+}
+
+.lets-talk button{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+
+article{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 50px;
+    gap: 1rem;
+    margin-top: 100px;
+
+}
+
+article h2{
+    color:red;
+    margin: auto;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 280px;
+    margin-bottom: 30px;
+}
+
+
+.cards{
+    display: flex;
+    gap: 3rem;
+}
+.cards h3{
+    font-size: 20px;
+}
+
+.cards p{
+    color: white;
+}
+
+.cards .icon{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.first,.second,.third{
+    background-color:#0d111c ;
+    width:250px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    transition: all 0.8s;
+}
+
+.first:hover{
+    transform: translateY(-1.5rem);
+}
+
+.second:hover{
+    transform: translateY(-1.5rem);
+}
+
+.third:hover{
+    transform: translateY(-1.5rem);
+}
+   .cards button{
+
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 10px;
+} 
+
+
+
+.heading{
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 80PX;
+}
+
+.heading h3 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.heading button{
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-size:20PX ;
+    transition: all 0.8s;
+}
+
+.heading button:hover{
+    transform: translateY(-1rem);
+    color: black;
+    background-color: white;
+    border:solid red 2px;
+    font-weight: bolder;
+}
+
+.hire-me{
+    text-align: center;
+    margin-top: 150PX;
+}
+
+
+
+footer{
+    background-color: #0d111c;
+    margin-top: 100px;
+
+}
+
+.content{
+    color: white;
+    padding-top:30px;
+}
+
+.content-text{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left:100px;
+}
+
+span{
+    color: red;
+}
+
+.content-question{
+    font-size: 25px;
+    color: red;
+    margin-bottom: 10px;
+    margin-left:500px;
+
+}
+
+.content-services{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 500px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.call-us{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.info-icon{
+    font-size: 20px;
+    margin-top: 70px;
+    color: red;
+    transition: all 0.5s;
+}
+
+.info-icon:hover{
+    transform: translateY(-1.3rem);
+    color: white;
+}
+
+.send-me{
+    color:red;
+    font-weight: bolder;
+    font-size: 29px;
+    margin-top: 50px;
+    margin-left: 138px;
+
+}
+
+
+
+.messages{
+    color: white;
+    font-size: 20px;
+    margin-top:8px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+ 
+menu,input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.class, input{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    margin-left: 20px;
+
+}
+ 
+ menu ,textarea{
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width:40%;
+
+ }
+ 
+  .switcher button{
+    padding:15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    margin-left: 170px;
+    margin-bottom:10px ;
+}
+
+
+@media only screen and (max-width:600px){
+ 
+
+    nav{
+        display: flex;
+        margin: auto;
+
+    }
+
+    nav ul{
+        display:none;
+    }
+
+     nav.logo img{
+        width:300px;
+        margin-right: 80px;
+        
+    }
+
+   .button button{
+        width: 130px;
+        margin-right: 10px;
+
+    }
+   
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    
+
+    .section{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+
+    h4{
+       font-size: 20px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .newslatter form input:first-child{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .newslatter form input:last-child{
+        width: 30%;
+        left:7.9rem;
+        font-size: 12px;
+        top:7.2px;
+        justify-content: center;
+        
+    }
+
+main{
+display: flex;
+width: 100%;
+margin-top: 80px;
+}
+
+ main img{
+    width: 200px;
+    height: 350px;
+    margin-top:50px;
+    margin-left: 10px;
+}
+
+.main-text{
+    width: 40%;
+
+
+}
+
+.main-text h2{
+    font-size: 30px;
+}
+
+.main-text h5{
+    font-size: 15px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+article h2{
+   margin: auto;
+}
+
+img{
+    width: 250px;
+
+}
+
+.hire{
+    width: 100%;
+    margin: 0%;
+}
+
+.heading{
+width: 100%;
+margin: auto;
+}
+
+.heading h3{
+    font-size: 20px;
+
+}
+
+.heading button{
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+menu,.class{
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+    margin-top: 10px;
+}
+
+
+.content-text{
+    margin:auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-question,.content-services{
+      margin: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.messages{
+     font-size: 15px;
+     margin:0;
+     padding-left: 40px;
+     margin-top: 20px;
+
+}
+.send-me{
+    font-size:20px;
+    margin: 0;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+textarea{
+    width: 80%;
+}
+
+menu,.switcher button{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+footer{
+    margin-bottom: 20px;
+}
+
+
+
+}
